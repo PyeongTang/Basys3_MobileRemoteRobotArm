@@ -1,0 +1,2 @@
+xadc_sequencer.v,verilog,xil_defaultlib,../../../../basys3_24_2.srcs/sources_1/ip/xadc_sequencer/xadc_sequencer.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

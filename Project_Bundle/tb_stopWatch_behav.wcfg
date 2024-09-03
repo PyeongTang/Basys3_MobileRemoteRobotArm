@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_stopWatch_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_stopWatch" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="406666fs"></ZoomStartTime>
+      <ZoomEndTime time="1118667fs"></ZoomEndTime>
+      <Cursor1Time time="1000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="258"></NameColumnWidth>
+      <ValueColumnWidth column_width="125"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="10" />
+   <wvobject fp_name="group26" type="group">
+      <obj_property name="label">CTRL</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_stopWatch/DUT/CTRL/i_clk" type="logic">
+         <obj_property name="ElementShortName">i_clk</obj_property>
+         <obj_property name="ObjectShortName">i_clk</obj_property>
+         <obj_property name="CustomSignalColor">#DCDCDC</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_stopWatch/DUT/CTRL/i_reset" type="logic">
+         <obj_property name="ElementShortName">i_reset</obj_property>
+         <obj_property name="ObjectShortName">i_reset</obj_property>
+         <obj_property name="CustomSignalColor">#DCDCDC</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="group147" type="group">
+         <obj_property name="label">btn</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/tb_stopWatch/DUT/CTRL/i_btn_start" type="logic">
+            <obj_property name="ElementShortName">i_btn_start</obj_property>
+            <obj_property name="ObjectShortName">i_btn_start</obj_property>
+            <obj_property name="CustomSignalColor">#800080</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_stopWatch/DUT/CTRL/i_btn_stop" type="logic">
+            <obj_property name="ElementShortName">i_btn_stop</obj_property>
+            <obj_property name="ObjectShortName">i_btn_stop</obj_property>
+            <obj_property name="CustomSignalColor">#800080</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_stopWatch/DUT/CTRL/i_btn_rep" type="logic">
+            <obj_property name="ElementShortName">i_btn_rep</obj_property>
+            <obj_property name="ObjectShortName">i_btn_rep</obj_property>
+            <obj_property name="CustomSignalColor">#800080</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_stopWatch/DUT/CTRL/i_btn_show_rep" type="logic">
+            <obj_property name="ElementShortName">i_btn_show_rep</obj_property>
+            <obj_property name="ObjectShortName">i_btn_show_rep</obj_property>
+            <obj_property name="CustomSignalColor">#800080</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/tb_stopWatch/DUT/CTRL/i_mem_set_done" type="logic">
+         <obj_property name="ElementShortName">i_mem_set_done</obj_property>
+         <obj_property name="ObjectShortName">i_mem_set_done</obj_property>
+         <obj_property name="CustomSignalColor">#800080</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_stopWatch/DUT/CTRL/o_en_clock_memory" type="logic">
+         <obj_property name="ElementShortName">o_en_clock_memory</obj_property>
+         <obj_property name="ObjectShortName">o_en_clock_memory</obj_property>
+         <obj_property name="CustomSignalColor">#FFD700</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_stopWatch/DUT/CTRL/o_wen_clock_memory" type="logic">
+         <obj_property name="ElementShortName">o_wen_clock_memory</obj_property>
+         <obj_property name="ObjectShortName">o_wen_clock_memory</obj_property>
+         <obj_property name="CustomSignalColor">#FFD700</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_stopWatch/DUT/CTRL/o_en_clock_counter" type="logic">
+         <obj_property name="ElementShortName">o_en_clock_counter</obj_property>
+         <obj_property name="ObjectShortName">o_en_clock_counter</obj_property>
+         <obj_property name="CustomSignalColor">#FFD700</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_stopWatch/DUT/CTRL/o_sel_memory" type="logic">
+         <obj_property name="ElementShortName">o_sel_memory</obj_property>
+         <obj_property name="ObjectShortName">o_sel_memory</obj_property>
+         <obj_property name="CustomSignalColor">#FFD700</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_stopWatch/DUT/CTRL/present_state" type="array">
+         <obj_property name="ElementShortName">present_state[2:0]</obj_property>
+         <obj_property name="ObjectShortName">present_state[2:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#A52A2A</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_stopWatch/DUT/CTRL/next_state" type="array">
+         <obj_property name="ElementShortName">next_state[2:0]</obj_property>
+         <obj_property name="ObjectShortName">next_state[2:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#A52A2A</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="group141" type="group">
+         <obj_property name="label">reg</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/tb_stopWatch/DUT/CTRL/r_en_clock_counter" type="logic">
+            <obj_property name="ElementShortName">r_en_clock_counter</obj_property>
+            <obj_property name="ObjectShortName">r_en_clock_counter</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_stopWatch/DUT/CTRL/r_en_clock_memory" type="logic">
+            <obj_property name="ElementShortName">r_en_clock_memory</obj_property>
+            <obj_property name="ObjectShortName">r_en_clock_memory</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_stopWatch/DUT/CTRL/r_wen_clock_memory" type="logic">
+            <obj_property name="ElementShortName">r_wen_clock_memory</obj_property>
+            <obj_property name="ObjectShortName">r_wen_clock_memory</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_stopWatch/DUT/CTRL/r_sel_memory" type="logic">
+            <obj_property name="ElementShortName">r_sel_memory</obj_property>
+            <obj_property name="ObjectShortName">r_sel_memory</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group18" type="group">
+      <obj_property name="label">CLK_DIV</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_stopWatch/DUT/CLK_DIV/i_clk" type="logic">
+         <obj_property name="ElementShortName">i_clk</obj_property>
+         <obj_property name="ObjectShortName">i_clk</obj_property>
+         <obj_property name="CustomSignalColor">#DCDCDC</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_stopWatch/DUT/CLK_DIV/i_reset" type="logic">
+         <obj_property name="ElementShortName">i_reset</obj_property>
+         <obj_property name="ObjectShortName">i_reset</obj_property>
+         <obj_property name="CustomSignalColor">#DCDCDC</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_stopWatch/DUT/CLK_DIV/i_en" type="logic">
+         <obj_property name="ElementShortName">i_en</obj_property>
+         <obj_property name="ObjectShortName">i_en</obj_property>
+         <obj_property name="CustomSignalColor">#800080</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_stopWatch/DUT/CLK_DIV/o_clk" type="logic">
+         <obj_property name="ElementShortName">o_clk</obj_property>
+         <obj_property name="ObjectShortName">o_clk</obj_property>
+         <obj_property name="CustomSignalColor">#FFD700</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group49" type="group">
+      <obj_property name="label">CLK_CNT</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_stopWatch/DUT/CLK_CNT/i_clk" type="logic">
+         <obj_property name="ElementShortName">i_clk</obj_property>
+         <obj_property name="ObjectShortName">i_clk</obj_property>
+         <obj_property name="CustomSignalColor">#DCDCDC</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_stopWatch/DUT/CLK_CNT/i_reset" type="logic">
+         <obj_property name="ElementShortName">i_reset</obj_property>
+         <obj_property name="ObjectShortName">i_reset</obj_property>
+         <obj_property name="CustomSignalColor">#DCDCDC</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_stopWatch/DUT/CLK_CNT/i_en" type="logic">
+         <obj_property name="ElementShortName">i_en</obj_property>
+         <obj_property name="ObjectShortName">i_en</obj_property>
+         <obj_property name="CustomSignalColor">#800080</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_stopWatch/DUT/CLK_CNT/i_tick" type="logic">
+         <obj_property name="ElementShortName">i_tick</obj_property>
+         <obj_property name="ObjectShortName">i_tick</obj_property>
+         <obj_property name="CustomSignalColor">#800080</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_stopWatch/DUT/CLK_CNT/o_bcd_4digit" type="array">
+         <obj_property name="ElementShortName">o_bcd_4digit[15:0]</obj_property>
+         <obj_property name="ObjectShortName">o_bcd_4digit[15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FFD700</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="group142" type="group">
+         <obj_property name="label">reg</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/tb_stopWatch/DUT/CLK_CNT/r_tens_min" type="array">
+            <obj_property name="ElementShortName">r_tens_min[3:0]</obj_property>
+            <obj_property name="ObjectShortName">r_tens_min[3:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_stopWatch/DUT/CLK_CNT/r_ones_min" type="array">
+            <obj_property name="ElementShortName">r_ones_min[3:0]</obj_property>
+            <obj_property name="ObjectShortName">r_ones_min[3:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_stopWatch/DUT/CLK_CNT/r_tens_sec" type="array">
+            <obj_property name="ElementShortName">r_tens_sec[3:0]</obj_property>
+            <obj_property name="ObjectShortName">r_tens_sec[3:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_stopWatch/DUT/CLK_CNT/r_ones_sec" type="array">
+            <obj_property name="ElementShortName">r_ones_sec[3:0]</obj_property>
+            <obj_property name="ObjectShortName">r_ones_sec[3:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group59" type="group">
+      <obj_property name="label">CLK_MEM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_stopWatch/DUT/CLK_MEM/i_clk" type="logic">
+         <obj_property name="ElementShortName">i_clk</obj_property>
+         <obj_property name="ObjectShortName">i_clk</obj_property>
+         <obj_property name="CustomSignalColor">#DCDCDC</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_stopWatch/DUT/CLK_MEM/i_reset" type="logic">
+         <obj_property name="ElementShortName">i_reset</obj_property>
+         <obj_property name="ObjectShortName">i_reset</obj_property>
+         <obj_property name="CustomSignalColor">#DCDCDC</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_stopWatch/DUT/CLK_MEM/i_en" type="logic">
+         <obj_property name="ElementShortName">i_en</obj_property>
+         <obj_property name="ObjectShortName">i_en</obj_property>
+         <obj_property name="CustomSignalColor">#800080</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_stopWatch/DUT/CLK_MEM/i_wen" type="logic">
+         <obj_property name="ElementShortName">i_wen</obj_property>
+         <obj_property name="ObjectShortName">i_wen</obj_property>
+         <obj_property name="CustomSignalColor">#800080</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_stopWatch/DUT/CLK_MEM/i_repNum" type="array">
+         <obj_property name="ElementShortName">i_repNum[3:0]</obj_property>
+         <obj_property name="ObjectShortName">i_repNum[3:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#800080</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_stopWatch/DUT/CLK_MEM/i_data" type="array">
+         <obj_property name="ElementShortName">i_data[15:0]</obj_property>
+         <obj_property name="ObjectShortName">i_data[15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#800080</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_stopWatch/DUT/CLK_MEM/o_mem_set_done" type="logic">
+         <obj_property name="ElementShortName">o_mem_set_done</obj_property>
+         <obj_property name="ObjectShortName">o_mem_set_done</obj_property>
+         <obj_property name="CustomSignalColor">#FFD700</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_stopWatch/DUT/CLK_MEM/o_data" type="array">
+         <obj_property name="ElementShortName">o_data[15:0]</obj_property>
+         <obj_property name="ObjectShortName">o_data[15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FFD700</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_stopWatch/DUT/CLK_MEM/r_clock_memory" type="array">
+         <obj_property name="ElementShortName">r_clock_memory[0:15][15:0]</obj_property>
+         <obj_property name="ObjectShortName">r_clock_memory[0:15][15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group76" type="group">
+      <obj_property name="label">BTN_C</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_stopWatch/DUT/BTN_START_C/i_clk" type="logic">
+         <obj_property name="ElementShortName">i_clk</obj_property>
+         <obj_property name="ObjectShortName">i_clk</obj_property>
+         <obj_property name="CustomSignalColor">#DCDCDC</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_stopWatch/DUT/BTN_START_C/i_reset" type="logic">
+         <obj_property name="ElementShortName">i_reset</obj_property>
+         <obj_property name="ObjectShortName">i_reset</obj_property>
+         <obj_property name="CustomSignalColor">#DCDCDC</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_stopWatch/DUT/BTN_START_C/i_btn_input" type="logic">
+         <obj_property name="ElementShortName">i_btn_input</obj_property>
+         <obj_property name="ObjectShortName">i_btn_input</obj_property>
+         <obj_property name="CustomSignalColor">#800080</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_stopWatch/DUT/BTN_START_C/o_btn_edge" type="logic">
+         <obj_property name="ElementShortName">o_btn_edge</obj_property>
+         <obj_property name="ObjectShortName">o_btn_edge</obj_property>
+         <obj_property name="CustomSignalColor">#FFD700</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="group143" type="group">
+         <obj_property name="label">reg</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/tb_stopWatch/DUT/BTN_START_C/r_btn_input" type="logic">
+            <obj_property name="ElementShortName">r_btn_input</obj_property>
+            <obj_property name="ObjectShortName">r_btn_input</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_stopWatch/DUT/BTN_START_C/r_btn_input_z" type="logic">
+            <obj_property name="ElementShortName">r_btn_input_z</obj_property>
+            <obj_property name="ObjectShortName">r_btn_input_z</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_stopWatch/DUT/BTN_START_C/r_btn_input_zz" type="logic">
+            <obj_property name="ElementShortName">r_btn_input_zz</obj_property>
+            <obj_property name="ObjectShortName">r_btn_input_zz</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group84" type="group">
+      <obj_property name="label">BTN_U</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_stopWatch/DUT/BTN_STOP_U/i_clk" type="logic">
+         <obj_property name="ElementShortName">i_clk</obj_property>
+         <obj_property name="ObjectShortName">i_clk</obj_property>
+         <obj_property name="CustomSignalColor">#DCDCDC</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_stopWatch/DUT/BTN_STOP_U/i_reset" type="logic">
+         <obj_property name="ElementShortName">i_reset</obj_property>
+         <obj_property name="ObjectShortName">i_reset</obj_property>
+         <obj_property name="CustomSignalColor">#DCDCDC</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_stopWatch/DUT/BTN_STOP_U/i_btn_input" type="logic">
+         <obj_property name="ElementShortName">i_btn_input</obj_property>
+         <obj_property name="ObjectShortName">i_btn_input</obj_property>
+         <obj_property name="CustomSignalColor">#800080</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_stopWatch/DUT/BTN_STOP_U/o_btn_edge" type="logic">
+         <obj_property name="ElementShortName">o_btn_edge</obj_property>
+         <obj_property name="ObjectShortName">o_btn_edge</obj_property>
+         <obj_property name="CustomSignalColor">#FFD700</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="group144" type="group">
+         <obj_property name="label">reg</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/tb_stopWatch/DUT/BTN_STOP_U/r_btn_input" type="logic">
+            <obj_property name="ElementShortName">r_btn_input</obj_property>
+            <obj_property name="ObjectShortName">r_btn_input</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_stopWatch/DUT/BTN_STOP_U/r_btn_input_z" type="logic">
+            <obj_property name="ElementShortName">r_btn_input_z</obj_property>
+            <obj_property name="ObjectShortName">r_btn_input_z</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_stopWatch/DUT/BTN_STOP_U/r_btn_input_zz" type="logic">
+            <obj_property name="ElementShortName">r_btn_input_zz</obj_property>
+            <obj_property name="ObjectShortName">r_btn_input_zz</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group92" type="group">
+      <obj_property name="label">BTN_R</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_stopWatch/DUT/BTN_REP_R/i_clk" type="logic">
+         <obj_property name="ElementShortName">i_clk</obj_property>
+         <obj_property name="ObjectShortName">i_clk</obj_property>
+         <obj_property name="CustomSignalColor">#DCDCDC</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_stopWatch/DUT/BTN_REP_R/i_reset" type="logic">
+         <obj_property name="ElementShortName">i_reset</obj_property>
+         <obj_property name="ObjectShortName">i_reset</obj_property>
+         <obj_property name="CustomSignalColor">#DCDCDC</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_stopWatch/DUT/BTN_REP_R/i_btn_input" type="logic">
+         <obj_property name="ElementShortName">i_btn_input</obj_property>
+         <obj_property name="ObjectShortName">i_btn_input</obj_property>
+         <obj_property name="CustomSignalColor">#800080</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_stopWatch/DUT/BTN_REP_R/o_btn_edge" type="logic">
+         <obj_property name="ElementShortName">o_btn_edge</obj_property>
+         <obj_property name="ObjectShortName">o_btn_edge</obj_property>
+         <obj_property name="CustomSignalColor">#FFD700</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="group145" type="group">
+         <obj_property name="label">reg</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/tb_stopWatch/DUT/BTN_REP_R/r_btn_input" type="logic">
+            <obj_property name="ElementShortName">r_btn_input</obj_property>
+            <obj_property name="ObjectShortName">r_btn_input</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_stopWatch/DUT/BTN_REP_R/r_btn_input_z" type="logic">
+            <obj_property name="ElementShortName">r_btn_input_z</obj_property>
+            <obj_property name="ObjectShortName">r_btn_input_z</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_stopWatch/DUT/BTN_REP_R/r_btn_input_zz" type="logic">
+            <obj_property name="ElementShortName">r_btn_input_zz</obj_property>
+            <obj_property name="ObjectShortName">r_btn_input_zz</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group100" type="group">
+      <obj_property name="label">BTN_D</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_stopWatch/DUT/BTN_SHOWREP_D/i_clk" type="logic">
+         <obj_property name="ElementShortName">i_clk</obj_property>
+         <obj_property name="ObjectShortName">i_clk</obj_property>
+         <obj_property name="CustomSignalColor">#DCDCDC</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_stopWatch/DUT/BTN_SHOWREP_D/i_reset" type="logic">
+         <obj_property name="ElementShortName">i_reset</obj_property>
+         <obj_property name="ObjectShortName">i_reset</obj_property>
+         <obj_property name="CustomSignalColor">#DCDCDC</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_stopWatch/DUT/BTN_SHOWREP_D/i_btn_input" type="logic">
+         <obj_property name="ElementShortName">i_btn_input</obj_property>
+         <obj_property name="ObjectShortName">i_btn_input</obj_property>
+         <obj_property name="CustomSignalColor">#800080</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_stopWatch/DUT/BTN_SHOWREP_D/o_btn_edge" type="logic">
+         <obj_property name="ElementShortName">o_btn_edge</obj_property>
+         <obj_property name="ObjectShortName">o_btn_edge</obj_property>
+         <obj_property name="CustomSignalColor">#FFD700</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="group146" type="group">
+         <obj_property name="label">reg</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/tb_stopWatch/DUT/BTN_SHOWREP_D/r_btn_input" type="logic">
+            <obj_property name="ElementShortName">r_btn_input</obj_property>
+            <obj_property name="ObjectShortName">r_btn_input</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_stopWatch/DUT/BTN_SHOWREP_D/r_btn_input_z" type="logic">
+            <obj_property name="ElementShortName">r_btn_input_z</obj_property>
+            <obj_property name="ObjectShortName">r_btn_input_z</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_stopWatch/DUT/BTN_SHOWREP_D/r_btn_input_zz" type="logic">
+            <obj_property name="ElementShortName">r_btn_input_zz</obj_property>
+            <obj_property name="ObjectShortName">r_btn_input_zz</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group108" type="group">
+      <obj_property name="label">SW</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_stopWatch/DUT/SW_SEL_MEM/i_reset" type="logic">
+         <obj_property name="ElementShortName">i_reset</obj_property>
+         <obj_property name="ObjectShortName">i_reset</obj_property>
+         <obj_property name="CustomSignalColor">#DCDCDC</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_stopWatch/DUT/SW_SEL_MEM/i_sw" type="array">
+         <obj_property name="ElementShortName">i_sw[15:0]</obj_property>
+         <obj_property name="ObjectShortName">i_sw[15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#800080</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_stopWatch/DUT/SW_SEL_MEM/o_sw" type="array">
+         <obj_property name="ElementShortName">o_sw[3:0]</obj_property>
+         <obj_property name="ObjectShortName">o_sw[3:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FFD700</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group129" type="group">
+      <obj_property name="label">FND</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_stopWatch/DUT/FND_CTRL/i_clk" type="logic">
+         <obj_property name="ElementShortName">i_clk</obj_property>
+         <obj_property name="ObjectShortName">i_clk</obj_property>
+         <obj_property name="CustomSignalColor">#DCDCDC</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_stopWatch/DUT/FND_CTRL/i_reset" type="logic">
+         <obj_property name="ElementShortName">i_reset</obj_property>
+         <obj_property name="ObjectShortName">i_reset</obj_property>
+         <obj_property name="CustomSignalColor">#DCDCDC</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_stopWatch/DUT/FND_CTRL/i_value" type="array">
+         <obj_property name="ElementShortName">i_value[15:0]</obj_property>
+         <obj_property name="ObjectShortName">i_value[15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#800080</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_stopWatch/DUT/FND_CTRL/o_fnd" type="array">
+         <obj_property name="ElementShortName">o_fnd[7:0]</obj_property>
+         <obj_property name="ObjectShortName">o_fnd[7:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FFD700</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_stopWatch/DUT/FND_CTRL/o_sel" type="array">
+         <obj_property name="ElementShortName">o_sel[3:0]</obj_property>
+         <obj_property name="ObjectShortName">o_sel[3:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FFD700</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

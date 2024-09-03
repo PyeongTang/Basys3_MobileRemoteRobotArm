@@ -1,0 +1,103 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Mon Sep  2 18:28:38 2024
+| Host         : DESKTOP-25V70GT running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file top_mobileRemoteRobotArm_control_sets_placed.rpt
+| Design       : top_mobileRemoteRobotArm
+| Device       : xc7a35t
+-----------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    25 |
+|    Minimum number of control sets                        |    25 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |   105 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    25 |
+| >= 0 to < 4        |     0 |
+| >= 4 to < 6        |     6 |
+| >= 6 to < 8        |     1 |
+| >= 8 to < 10       |     6 |
+| >= 10 to < 12      |     2 |
+| >= 12 to < 14      |     7 |
+| >= 14 to < 16      |     0 |
+| >= 16              |     3 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              39 |           11 |
+| No           | No                    | Yes                    |             240 |           83 |
+| No           | Yes                   | No                     |              37 |           33 |
+| Yes          | No                    | No                     |              12 |            5 |
+| Yes          | No                    | Yes                    |             143 |           45 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++--------------------------------------------------------+-------------------------------------------------------------------------------------+----------------------------------------------------------+------------------+----------------+
+|                      Clock Signal                      |                                    Enable Signal                                    |                     Set/Reset Signal                     | Slice Load Count | Bel Load Count |
++--------------------------------------------------------+-------------------------------------------------------------------------------------+----------------------------------------------------------+------------------+----------------+
+|  i_clk_IBUF_BUFG                                       | MRRA_RX/DISPLAY_COORD/FND_SELECT/E[0]                                               |                                                          |                3 |              4 |
+|  i_clk_IBUF_BUFG                                       | MRRA_RX/CMD_DECODER/UART/E[0]                                                       | MRRA_BODY/ELBOW_JOINT/SERVO_DRIVER/ED_COUNT_freq/i_reset |                1 |              4 |
+|  i_clk_IBUF_BUFG                                       | MRRA_END_EFFECTOR/GRIP_CTRL/ed/r_cp_reg_1                                           | MRRA_BODY/ELBOW_JOINT/SERVO_DRIVER/ED_COUNT_freq/i_reset |                2 |              4 |
+|  i_clk_IBUF_BUFG                                       | MRRA_RX/CMD_DECODER/UART/led_reg[5]_0[0]                                            | MRRA_BODY/ELBOW_JOINT/SERVO_DRIVER/ED_COUNT_freq/i_reset |                2 |              4 |
+|  i_clk_IBUF_BUFG                                       | MRRA_RX/CMD_DECODER/UART/i_data_ed/E[0]                                             | MRRA_BODY/ELBOW_JOINT/SERVO_DRIVER/ED_COUNT_freq/i_reset |                1 |              4 |
+|  i_clk_IBUF_BUFG                                       | MRRA_RX/DISPLAY_COORD/FND_SELECT/ED_DELAY_COUNTER/E[0]                              | MRRA_BODY/ELBOW_JOINT/SERVO_DRIVER/ED_COUNT_freq/i_reset |                2 |              5 |
+|  i_clk_IBUF_BUFG                                       | MRRA_RX/CMD_DECODER/UART/led_reg[7]_1[0]                                            | MRRA_BODY/ELBOW_JOINT/SERVO_DRIVER/ED_COUNT_freq/i_reset |                4 |              6 |
+|  i_clk_IBUF_BUFG                                       | MRRA_RX/CMD_DECODER/UART/led[7]_i_1_n_0                                             |                                                          |                2 |              8 |
+|  MRRA_BODY/SOLVER/ARCTAN_T2/r_radVal_reg[8]_i_2__0_n_0 |                                                                                     | MRRA_BODY/ELBOW_JOINT/SERVO_DRIVER/ED_COUNT_freq/i_reset |                7 |              9 |
+|  MRRA_BODY/SOLVER/SIN/r_sinVal                         |                                                                                     | MRRA_BODY/ELBOW_JOINT/SERVO_DRIVER/ED_COUNT_freq/i_reset |                9 |              9 |
+|  MRRA_RX/CMD_DECODER/E[0]                              |                                                                                     | MRRA_BODY/ELBOW_JOINT/SERVO_DRIVER/ED_COUNT_freq/i_reset |                7 |              9 |
+| ~i_clk_IBUF_BUFG                                       | MRRA_RX/CMD_DECODER/i_s_clk/ed/E[0]                                                 | MRRA_BODY/ELBOW_JOINT/SERVO_DRIVER/ED_COUNT_freq/i_reset |                3 |              9 |
+| ~i_clk_IBUF_BUFG                                       | MRRA_RX/CMD_DECODER/i_us_clk/ed/E[0]                                                | MRRA_BODY/ELBOW_JOINT/SERVO_DRIVER/ED_COUNT_freq/i_reset |                2 |              9 |
+|  MRRA_BODY/SOLVER/ARCCOS/r_radVal_reg[9]_i_2_n_0       |                                                                                     | MRRA_BODY/ELBOW_JOINT/SERVO_DRIVER/ED_COUNT_freq/i_reset |               10 |             10 |
+|  i_clk_IBUF_BUFG                                       | MRRA_BASE/BASE_HEIGHT_CTRL/USEC/ED_OUTPUT_TICK/E[0]                                 | MRRA_BODY/ELBOW_JOINT/SERVO_DRIVER/ED_COUNT_freq/i_reset |                3 |             10 |
+|  i_clk_IBUF_BUFG                                       | MRRA_BODY/SHOULDER_DT/ED_DELAY_COUNTER/r_following_duty__0                          | MRRA_BODY/ELBOW_JOINT/SERVO_DRIVER/ED_COUNT_freq/i_reset |                3 |             12 |
+|  i_clk_IBUF_BUFG                                       | MRRA_BODY/SHOULDER_DT/ED_DELAY_COUNTER/r_following_duty__0_0                        | MRRA_BODY/ELBOW_JOINT/SERVO_DRIVER/ED_COUNT_freq/i_reset |                3 |             12 |
+|  i_clk_IBUF_BUFG                                       | MRRA_END_EFFECTOR/GRIP_CTRL/ed/r_duty_angle                                         | MRRA_BODY/ELBOW_JOINT/SERVO_DRIVER/ED_COUNT_freq/i_reset |                3 |             12 |
+|  i_clk_IBUF_BUFG                                       | MRRA_BASE/BASE_ROTATION_CTRL/rotate/SERVO_DRIVER/ED_COUNT_freq/w_count_freq_negedge | MRRA_BODY/ELBOW_JOINT/SERVO_DRIVER/ED_COUNT_freq/i_reset |                4 |             13 |
+|  i_clk_IBUF_BUFG                                       | MRRA_BODY/SHOULDER_JOINT/SERVO_DRIVER/ED_COUNT_freq/sel                             | MRRA_BODY/ELBOW_JOINT/SERVO_DRIVER/ED_COUNT_freq/i_reset |                4 |             13 |
+|  i_clk_IBUF_BUFG                                       | MRRA_BODY/ELBOW_JOINT/SERVO_DRIVER/ED_COUNT_freq/sel                                | MRRA_BODY/ELBOW_JOINT/SERVO_DRIVER/ED_COUNT_freq/i_reset |                4 |             13 |
+|  i_clk_IBUF_BUFG                                       | MRRA_END_EFFECTOR/GRIP_CTRL/grap/SERVO_DRIVER/ED_COUNT_freq/w_count_freq_negedge    | MRRA_BODY/ELBOW_JOINT/SERVO_DRIVER/ED_COUNT_freq/i_reset |                4 |             13 |
+|  i_clk_IBUF_BUFG                                       |                                                                                     |                                                          |               11 |             39 |
+| ~i_clk_IBUF_BUFG                                       |                                                                                     | MRRA_BODY/ELBOW_JOINT/SERVO_DRIVER/ED_COUNT_freq/i_reset |               26 |             44 |
+|  i_clk_IBUF_BUFG                                       |                                                                                     | MRRA_BODY/ELBOW_JOINT/SERVO_DRIVER/ED_COUNT_freq/i_reset |               57 |            196 |
++--------------------------------------------------------+-------------------------------------------------------------------------------------+----------------------------------------------------------+------------------+----------------+
+
+

@@ -1,0 +1,17 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/work/Harman_4_LJP/Basys3/basys3_24_2/basys3_24_2.sim/sim_1/synth/func/xsim/top_i2c_lcd_func_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module buttonControl
+INFO: [VRFC 10-311] analyzing module clock_div_100
+INFO: [VRFC 10-311] analyzing module clock_div_100_1
+INFO: [VRFC 10-311] analyzing module clock_div_100_5
+INFO: [VRFC 10-311] analyzing module edge_detector_n
+INFO: [VRFC 10-311] analyzing module edge_detector_n_0
+INFO: [VRFC 10-311] analyzing module edge_detector_n_2
+INFO: [VRFC 10-311] analyzing module edge_detector_n_3
+INFO: [VRFC 10-311] analyzing module edge_detector_n_4
+INFO: [VRFC 10-311] analyzing module edge_detector_n_6
+INFO: [VRFC 10-311] analyzing module edge_detector_n_7
+INFO: [VRFC 10-311] analyzing module edge_detector_n_8
+INFO: [VRFC 10-311] analyzing module i2cLcdController
+INFO: [VRFC 10-311] analyzing module i2c_master
+INFO: [VRFC 10-311] analyzing module top_i2c_lcd
+INFO: [VRFC 10-311] analyzing module glbl

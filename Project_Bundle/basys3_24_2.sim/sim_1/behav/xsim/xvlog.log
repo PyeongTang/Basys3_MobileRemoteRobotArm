@@ -1,0 +1,53 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/work/Harman_4_LJP/Basys3/basys3_24_2/basys3_24_2.srcs/sources_1/new/Controllers.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fndControl
+INFO: [VRFC 10-311] analyzing module buttonControl
+INFO: [VRFC 10-311] analyzing module keyPadControl
+INFO: [VRFC 10-311] analyzing module DHT11_Control
+INFO: [VRFC 10-311] analyzing module HC_SR04_Control
+INFO: [VRFC 10-2458] undeclared symbol o_state_led, assumed default net type wire [C:/work/Harman_4_LJP/Basys3/basys3_24_2/basys3_24_2.srcs/sources_1/new/Controllers.v:695]
+INFO: [VRFC 10-2458] undeclared symbol o_read_state_led, assumed default net type wire [C:/work/Harman_4_LJP/Basys3/basys3_24_2/basys3_24_2.srcs/sources_1/new/Controllers.v:696]
+INFO: [VRFC 10-311] analyzing module buzzerControl
+INFO: [VRFC 10-311] analyzing module functionalWatchControl
+INFO: [VRFC 10-311] analyzing module DC_Motor_Control
+INFO: [VRFC 10-311] analyzing module SG90_Control
+INFO: [VRFC 10-311] analyzing module SG90_angle2Duty
+INFO: [VRFC 10-311] analyzing module SG90_Rotator
+INFO: [VRFC 10-311] analyzing module fanTimerControl
+INFO: [VRFC 10-311] analyzing module fanBackLightControl
+INFO: [VRFC 10-311] analyzing module fanPowerControl
+INFO: [VRFC 10-311] analyzing module ultrasonic
+INFO: [VRFC 10-2458] undeclared symbol o_cp, assumed default net type wire [C:/work/Harman_4_LJP/Basys3/basys3_24_2/basys3_24_2.srcs/sources_1/new/Controllers.v:1262]
+INFO: [VRFC 10-2458] undeclared symbol o_tick_posedge, assumed default net type wire [C:/work/Harman_4_LJP/Basys3/basys3_24_2/basys3_24_2.srcs/sources_1/new/Controllers.v:1263]
+INFO: [VRFC 10-2458] undeclared symbol o_tick_negedge, assumed default net type wire [C:/work/Harman_4_LJP/Basys3/basys3_24_2/basys3_24_2.srcs/sources_1/new/Controllers.v:1264]
+INFO: [VRFC 10-311] analyzing module i2c_master
+INFO: [VRFC 10-311] analyzing module i2cLcdController
+INFO: [VRFC 10-311] analyzing module stepperMotorControl
+INFO: [VRFC 10-311] analyzing module uart_rx
+INFO: [VRFC 10-311] analyzing module jointControl
+INFO: [VRFC 10-311] analyzing module manipulatorSolver
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/work/Harman_4_LJP/Basys3/basys3_24_2/basys3_24_2.srcs/sources_1/new/SequentialLogics.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module T_flip_flop_n
+INFO: [VRFC 10-311] analyzing module T_flip_flop_p
+INFO: [VRFC 10-311] analyzing module up_counter_asyc
+INFO: [VRFC 10-311] analyzing module down_counter_asyc
+INFO: [VRFC 10-311] analyzing module upDownCounter
+INFO: [VRFC 10-311] analyzing module upDownBCDCounter
+INFO: [VRFC 10-311] analyzing module ringCounter
+INFO: [VRFC 10-311] analyzing module edge_detector_n
+INFO: [VRFC 10-311] analyzing module edge_detector_p
+INFO: [VRFC 10-311] analyzing module ringCounterFnd
+INFO: [VRFC 10-311] analyzing module ringCounterLed
+INFO: [VRFC 10-311] analyzing module shift_register_SISO_n
+INFO: [VRFC 10-311] analyzing module shift_register_SIPO_n
+INFO: [VRFC 10-311] analyzing module shift_registerr_PISO
+INFO: [VRFC 10-311] analyzing module register_Nbit_n
+INFO: [VRFC 10-311] analyzing module sram_8bit_1024
+INFO: [VRFC 10-311] analyzing module button2Buzz
+INFO: [VRFC 10-2458] undeclared symbol w_t, assumed default net type wire [C:/work/Harman_4_LJP/Basys3/basys3_24_2/basys3_24_2.srcs/sources_1/new/SequentialLogics.v:404]
+INFO: [VRFC 10-311] analyzing module long_key_detector
+INFO: [VRFC 10-311] analyzing module functionalFan7SegSpinner
+INFO: [VRFC 10-2458] undeclared symbol w_spin_fan_mid_posedge, assumed default net type wire [C:/work/Harman_4_LJP/Basys3/basys3_24_2/basys3_24_2.srcs/sources_1/new/SequentialLogics.v:524]
+INFO: [VRFC 10-2458] undeclared symbol w_spin_fan_max_posedge, assumed default net type wire [C:/work/Harman_4_LJP/Basys3/basys3_24_2/basys3_24_2.srcs/sources_1/new/SequentialLogics.v:532]
+INFO: [VRFC 10-311] analyzing module ultra2Servo
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/work/Harman_4_LJP/Basys3/basys3_24_2/basys3_24_2.srcs/sim_1/new/tb_uart_rx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_uart_rx
