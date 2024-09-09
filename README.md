@@ -3,10 +3,10 @@ Basys3 mobileRemoteRobotArm Team 33248
 -------------------------------------------------
 
 Youtube Demo Link #1
-https://youtu.be/acDf3N0trYE
+[![Video Label](http://img.youtube.com/vi/acDf3N0trYE/0.jpg)](https://youtu.be/acDf3N0trYE)
 
 Youtube Demo Link #2
-https://youtu.be/JBlNLx0vRK4
+[![Video Label](http://img.youtube.com/vi/JBlNLx0vRK4/0.jpg)](https://youtu.be/JBlNLx0vRK4)
 
 -------------------------------------------------
 Brochure
